@@ -1,0 +1,103 @@
+{
+    "type": "div2",
+    "log_id": "snapshot_test_card",
+    "states": [
+      {
+        "state_id": 0,
+        "div": {
+          "type": "container",
+          "width": {
+            "type": "match_parent"
+          },
+          "height": {
+            "type": "fixed",
+            "value": 48
+          },
+          "background": [
+            {
+              "color": "#FF0000",
+              "type": "solid"
+            }
+          ],
+          "border": {
+            "corner_radius": 10,
+            "corners_radius": {
+                "top-right": 20
+            },
+            "stroke": {
+              "color": "#FFCC00",
+              "width": 2
+            }
+          },
+          "action": {
+            "url": "viewport://",
+            "log_id": "open_profile"
+          },
+          "margins": {
+            "right": 16,
+            "left": 16,
+            "top": 6,
+            "bottom": 6
+          },
+          "orientation": "horizontal",
+          "items": [
+            {
+              "type": "image",
+              "image_url": "",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "width": {
+                "value": 24,
+                "type": "fixed"
+              },
+              "margins": {
+                "right": 12,
+                "top": 12,
+                "left": 12,
+                "bottom": 12
+              },
+              "preview": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHkSURBVHgBtVZBUsJAEJyJFsZb/AH8AG4WVZbxB5yQG/EFwA/4AfiChBvgwfgC4gW4yRP4gdyUlGac2SRAlSQYDH3JZnfTPbPbOxsEhtW4LgKd2QRU5lcDIgxGU4Q/oHlfpd13JHBBCzrOcL48F3Ii7Q2ADMgJhFCDQDOZu4JWvfqsOgAcXBc6juut4B+QgAPALhI2WcrDOD3EoCQpQQ6wLNOgD/8dCFZa3JkXueJyolVAMDQ4Mc4PTbBqpgG63+adu2WXmdLHLlkgBH17PB8c+j7VhpHDJtws7p9BS0S6S1ve1CXaktNSC8hkl13J2eCPxHVLjo8DwInKMquA1ahaMTmuLyr20+w1trA9mr7gZaESi0DBb2UW4Mha4QRs7zsb4hS29oOai+HeZBKAsGyoaBOn6PoibKB5hECItPXd+D0FaRl46qF/lpNmWPWbWtRcZBbgWuIpGUJ7XxbSR/jdUyQU9BN5kgaiesJVNnISQccZz9zw4H2ViQI7HhuMZqXMAkokh4O2qaZpl4ucCSIQ20b7QR4ReZqvPyaV95j3YC0SOMOpIw84AievpiKgUkzze1aoO34rQMrDdOH3dgeOJleBYle9ELm4vfThVwbH/lVEkFpV0cRi0mA5F/LBSl32zCncP4hR7LbKoi7LAAAAAElFTkSuQmCC"
+            },
+            {
+              "type": "text",
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "match_parent"
+              },
+              "font_size": 16,
+              "font_size_unit": "dp",
+              "text_color": "#66000000",
+              "max_lines": 1,
+              "text_alignment_horizontal": "center",
+              "text_alignment_vertical": "center",
+              "text": "найдётся всё"
+            },
+            {
+              "type": "image",
+              "image_url": "",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "width": {
+                "value": 24,
+                "type": "fixed"
+              },
+              "margins": {
+                "right": 12,
+                "top": 12,
+                "left": 12,
+                "bottom": 12
+              },
+              "alignment_horizontal": "right",
+              "preview": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIHSURBVHgBvVZLctpAEO2eSmFVZYNvIE4QsrOpSkU5AWQR46w8nCD4BOYGxieQ2EVekRNYmxjvQk4Q5QZ4Yxsweu7Rh/LCVTNgym8zT6K6HzPzultMJXQnqJO36BP4MwgBbQEGTZmyYXh5M1q/y5MfH/iAuhLq006AlBlfop83aS5w0m39K5IjVRlpLPf+RuNkRhui1221M6JhlYvnex9ZH7c0QGH1YpvEz6F1UMf94o8RkSMbKIB/mB8Ucf+1yQ2iKJkxZz3DwQiULE3zEMbXv2hX8LxpQdgI7B5mFxV/5xqkvx/2kfGZ0Lp5ZsIwiientjgnATHCABmdGSMQVCSGr4Oo6RJrFShdcbL2dvw7pQ1g38HdKpDz8OVQIgK1dbfVFHvMSK0uTCHZwh0uefWhJB0QD2BWRl/sfZW3l9cLVMCM57XGKL7eF57IjnyuLdu2KGcBJk6qQmRwkksSfFucXUDR/xfU/GKFtfLtl+zVxnS/OJez172jgwTMxqKdUsBa/dYdlL3lq9A0YxXJRZtuSUCmXVzkVGiSKJGl0ft2KMPo8ZaW79ORY2NkmQXIyby2v4tuWqHKqwrLCbwHp9J3gT761CnpVK0tBw5dCseaXHKAV+eGK2RDfj6B8n4DOo0uJ2PaEMVHw2NTLj+sco3iSeNthv76XxTz2YzQLe8DCYBELbyLyjBP5qv7yuGjDWIAAAAASUVORK5CYII="
+            }
+          ]
+        }
+      }
+    ]
+  }

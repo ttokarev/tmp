@@ -1,0 +1,33 @@
+{
+    "type": "div2",
+    "log_id": "snapshot_test_card",
+    "states": [
+        {
+            "state_id": 0,
+            "div": {
+                "type": "state",
+                "div_id": "button",
+                "states": [
+                    {
+                        "state_id": "button_1",
+                        "div": {
+                            "type": "text",
+                            "text": "показать кнопку",
+                            "action": {
+                                "log_id": "test",
+                                "url": "div-action://set_state?state_id=0/button/button_2"
+                            }
+                        }
+                    },
+                    {
+                        "state_id": "button_2",
+                        "div": {
+                            "type": "text",
+                            "text": "Кнопка, которую нужно показать"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
